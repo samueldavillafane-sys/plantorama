@@ -2,18 +2,15 @@
   "name": "wixstro",
   "type": "module",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "wix dev",
-    "build": "wix build",
-    "preview": "wix preview",
-    "release": "wix release",
-    "env": "wix env pull",
-    "check": "npx astro check --js-only",
+ "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check --js-only",
     "test:run": "vitest run"
-  },
+ },
   "dependencies": {
     "@astrojs/check": "0.9.4",
-    "@astrojs/cloudflare": "12.5.5",
     "@astrojs/react": "4.3.0",
     "@astrojs/tailwind": "6.0.2",
     "@hello-pangea/dnd": "18.0.1",
